@@ -51,6 +51,7 @@ html_data = f"""
 <table border="1">
 <tr>
     <td>City</td>
+    <td>State</td>
     <td>Country</td>
     <td>Time</td>
     <td>Temp</td>
@@ -60,6 +61,7 @@ html_data = f"""
 </tr>
 <tr>
     <td>Guadalajara</td>
+    <td>Jalisco</td>
     <td>{str(list_of_data['sys']['country'])}</td>
     <td>{(ct)}</td>
     <td>{str(list_of_data['main']['temp']) + '°C'}</td>
