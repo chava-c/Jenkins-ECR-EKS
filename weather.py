@@ -50,7 +50,7 @@ html_data = f"""
 
 <table border="1">
 <tr>
-    <td>City gg</td>
+    <td>City</td>
     <td>Country</td>
     <td>Time</td>
     <td>Temp</td>
