@@ -41,14 +41,14 @@ print(f"Weather report for: {city}, {country}")
 print(f"                    {weather}")
 print(f"                    {temp} °C")
 print(f"                    {precp}%")
-print(f"                    {ct}")
+print(f"                    {ct.strftime('%d/%m/%Y %H:%M:%S')}")
 
 
 f = open('/bin/weather.html','w')
     
 html_data = f"""
 
-<table border="10">
+<table border="1">
 <tr>
     <td>City</td>
     <td>State</td>
