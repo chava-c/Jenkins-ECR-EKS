@@ -48,7 +48,7 @@ f = open('/bin/weather.html','w')
     
 html_data = f"""
 
-<table border="1">
+<table border="10">
 <tr>
     <td>City</td>
     <td>State</td>
