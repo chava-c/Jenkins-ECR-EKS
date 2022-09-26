@@ -27,7 +27,7 @@ spec:
                 - arm64
       containers:
       - name: nginx
-        image: 113304117666.dkr.ecr.us-east-1.amazonaws.com/pipeline-repository:latest
+        image: 113304117666.dkr.ecr.us-east-1.amazonaws.com/pipeline-repository:${BUILD_NUMBER}
         ports:
         - name: http
           containerPort: 80
