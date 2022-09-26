@@ -60,7 +60,7 @@ html_data = f"""
 </tr>
 <tr>
     <td>Guadalajara</td>
-    <td>Jalisco</td>
+    <td>Jaliscoooo</td>
     <td>{str(list_of_data['sys']['country'])}</td>
     <td>{(ct.strftime('%d/%m/%Y %H:%M:%S'))}</td>
     <td>{str(list_of_data['main']['temp']) + '°C'}</td>
