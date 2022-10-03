@@ -45,7 +45,7 @@ pipeline {
                     //sh 'kubectl get pods'
                     //sh 'kubectl get all'
 
-                    sh 'sed -i "s;latest;$IMAGE_TAG;" eksdeployment.yml'
+                    sh 'sed -i "s;latest;$IMAGE_TAG;" eks-web-deployment.yaml'
                  
                     sh 'kubectl rollout restart deployment -n eks-sample-app'
                     sh 'kubectl apply -f eks-web-deployment.yaml --record=true'
